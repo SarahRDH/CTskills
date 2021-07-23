@@ -1,0 +1,414 @@
+
+
+  html {
+    overflow-x: hidden;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  h1 {
+    opacity: 0;
+  }
+
+  h2 {
+    opacity: 0;
+    font-size: 9px;
+  }
+    
+  .jumbotron {
+    background-image: url("https://www.dropbox.com/s/we53t5bmyym5mou/jumbo1%20%281%29.jpg?raw=1");
+    background-position: right 30% top; 
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 800px;
+    margin-bottom: 0px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .jumbotron {
+      background-size: cover;
+    }
+  }
+
+  @media only screen and (max-width: 1135px) {
+    .jumbotron {
+      background-position: right 40% top; 
+    }
+  }
+  
+  button {
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    margin-top: 65px;
+    padding: 10px 20px;
+  }
+  
+  a {
+    color: #fefeff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    font-family:'lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1.2px;
+  }
+
+  .navbar {
+    padding: 28px 100px 100px 100px;
+    margin: 0px;
+  }
+
+  @media only screen and (max-width: 440px) {
+    .navbar {
+      padding: 28px 30px 100px 30px;
+    }
+  }
+  
+  .navbar-nav {
+    /* padding-left: 200px; */
+    text-transform: uppercase;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: white;
+    color: white;
+  }
+  /* .dropdown-menu {
+    background-color: #414f6b;
+  } */
+
+  /* ----------------second navbar--------------- */
+
+  .stickynav-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;    
+  }
+  
+  .intro-navs {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  
+  .second-nav {
+    height: 60px;
+    background-color: white;
+    padding: 10px 0px;
+    box-sizing: content-box;
+  }
+
+  .second-nav .navbar {
+    width: 100%;     
+  }
+
+  .second-nav a {
+    color: #414f6b;
+  }
+
+  .second-nav .navbar-dark .navbar-toggler {
+    color: #414f6b;
+    border-color: #414f6b;
+    background-color: #414f6b;
+  }
+
+  .second-nav .navbar {
+      padding: 0 150px 100px 150px;
+      margin: 0px;
+      text-transform: uppercase;
+    }
+
+@media only screen and (max-width: 630px) {
+  .second-nav .navbar {
+    padding: 0 50px 100px 70px;
+  }
+}
+
+
+
+  /* ----------middle section------------ */
+  
+  .history-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("https://www.dropbox.com/s/lsn5an8rxovtf0v/BGmid.jpg?raw=1");
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+  
+  .history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+  
+/* ------------carousel------------- */
+
+.carousel-background {
+  height: 195px;
+  width: 100vw;
+  background-color: rgba(65, 79, 107, 0.8);
+  position: absolute;
+  bottom: 0px;
+}  
+
+/* --------slick slider-----------  */
+
+#slider {
+  max-width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#slider .slides {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#slider .slide {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#slider .slide img {
+  width: 220px;
+  height: 135px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 762px) {
+  #slider .slide img {
+    width: 120%;
+    height: 120%;
+  }
+  #slider .slide {
+    padding-right: 25px;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.slick-dots{
+  position: absolute;
+  bottom: -100px !important;
+  display: block;
+  width: 100%;
+  padding: 10;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  }
+
+/* ---------end slick slider---------- */
+
+  .title {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-left: 9%;
+  }
+
+  
+  .description {
+    padding: 0px 190px 30px 190px;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+  }
+  
+  @media only screen and (max-width:763px) {
+    .description {
+      padding: 0px 10px 30px 190px;
+    }
+  }
+
+  @media only screen and (max-width:556px) {
+    .description {
+      padding: 0px 10px 30px 10px;
+    }
+  }
+
+  .mountains {
+    height: 800px;
+  }
+
+  /* ----------climb section -------------- */
+
+  .climb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .climb .description {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 60px 190px 30px 30px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .climb .description {
+      padding-right: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 630px) {
+    .climb {
+      flex-direction: column;
+    }
+    .climb .description {
+      padding: 0px 10px 0px 20px;
+    }
+  }
+
+  .climb .title {
+      margin: 15px 0px;
+      padding-left: 140px;
+  }
+
+  /* ---------tabs for last section -----------*/
+ 
+  .tab {
+    overflow: hidden;
+    background-color: #414f6b;
+    padding-left: 135px;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  .tab button:hover {
+    background-color: #b0b4be;
+    color: #414f6b;
+  }
+  
+  .tab button.active {
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+  
+  .tabcontent {
+    display: none;
+    padding: 50px 175px;
+    color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .schedules {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 352px;
+    padding: 5px 41px 27px;
+    margin-top: 80px;
+  }
+
+  @media only screen and (max-width: 620px) {
+    .tabcontent{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .schedules h3 {
+    color: #414f6b;
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2;
+  }
+
+  .schedules ul {
+    padding-left: 0;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 0.5;
+  }
+
+  .schedules span {
+    float: right;
+  }
+
+  #mountain1 {
+    background-image: url("https://www.dropbox.com/s/lkwjv5fj2v8w5xn/BGlast.jpg?raw=1"); 
+    display: block;
+    }
+
+  #mountain2 {
+    background-image: url("https://www.dropbox.com/s/9a43oikj6m9csbz/BGlast_tab2.jpg?raw=1");
+  }
+
+  /* ---------footer-------- */
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #414f6b;
+    padding: 10px 150px;
+  }
+
+  footer p {
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #63769d;
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 50px;
+  }
+  
+  @media only screen and (max-width:630px) {
+    footer {
+      padding-left: 70px;
+      padding-right: 20px;
+    }
+  }
