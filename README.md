@@ -2,7 +2,7 @@
 SEO optimized, responsive webpage for fictional company. Coded from a PSD using Bootstrap, Slick Slider, vanilla JS and jQuery.
 
 ![CTgif1a](https://user-images.githubusercontent.com/68091330/127336042-c7a2eee8-1d8a-4417-9ede-8a277c85014d.gif)
-<br>
+
 
 ![CTgif2a](https://user-images.githubusercontent.com/68091330/127336089-a7ae18d8-92fc-4bd1-8964-9b179986dd59.gif)
 
